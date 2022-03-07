@@ -1,0 +1,64 @@
+.root {
+    --blue: rgb(38, 70, 83);
+    --blue2: rgb(42, 157, 143);
+    --yellow: rgb(233, 196, 106);
+    --orange: rgb(244, 162, 97);
+    --red: rgb(231, 111, 81);
+    background-color: grey;
+     color:rgb(231, 111, 81);
+     -fx-background-color: #383838;
+
+
+}
+
+a:link{
+    color: rgb(000,000,000);
+}
+
+
+* {
+    text-align: center;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px 50px 30px 5px;
+
+}
+
+#title1 {
+    color:rgb(--blue) ;
+    background-color: var(--blue2);
+    font: size 50px;
+    padding: 2%;
+
+
+
+
+
+}
+p{
+    border: 25px solid var(--blue2);
+}
+p.center{
+
+    padding:5px;
+    font-size:20px;
+    background-color: var(--blue);
+
+    background-size: 95%, 30%;
+    color:rgb(202, 199, 199);
+    text-align: justify;
+
+    padding: 2%;
+
+
+
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+
+    line-height: 200%;
+
+
+}
